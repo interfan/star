@@ -2,9 +2,9 @@ import React from 'react';
 import Counter from './components/Counter';
 import DropdownForm from './components/DropdownForm';
 import { Button, Typography, Box, Paper } from '@mui/material';
-import IconButton from '@mui/material/IconButton';
-import AddIcon from '@mui/icons-material/Add';
-import RemoveIcon from '@mui/icons-material/Remove';
+//import IconButton from '@mui/material/IconButton';
+//import AddIcon from '@mui/icons-material/Add';
+//import RemoveIcon from '@mui/icons-material/Remove';
 import './styles/index.css';
 
 const App: React.FC = () => {
