@@ -1,0 +1,38 @@
+// module.exports = {
+//     root: true,
+//     env: { browser: true, es2020: true },
+//     extends: [
+//       'eslint:recommended',
+//       'plugin:react/recommended',
+//       'plugin:react/jsx-runtime',
+//       'plugin:react-hooks/recommended',
+//     ],
+//     ignorePatterns: ['dist', '.eslintrc.cjs'],
+//     parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
+//     settings: { react: { version: '18.2' } },
+//     plugins: ['react-refresh'],
+//     rules: {
+//       'react-refresh/only-export-components': [
+//         'warn',
+//         { allowConstantExport: true },
+//       ],
+//       "react/prop-types": 0
+//     },
+//   }
+
+
+module.exports = {
+  parser: '@typescript-eslint/parser', // Specifies the ESLint parser for TypeScript
+  extends: [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended', // Uses the recommended rules from @typescript-eslint
+  ],
+  plugins: ['@typescript-eslint'],
+  parserOptions: {
+    ecmaVersion: 2020, // Allows for modern ECMAScript features
+    sourceType: 'module', // Allows for the use of imports
+  },
+  rules: {
+    // Custom rules (optional)
+  },
+};
